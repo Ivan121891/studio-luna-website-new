@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --color-luna-dark: #1B1B2F;
+  --color-luna-midnight: #2D2D44;
+  --color-luna-gold: #C9A96E;
+  --color-luna-gold-light: #E8D5A3;
+  --color-luna-cream: #FDF8F3;
+  --color-luna-blush: #F5E6E8;
+  --color-luna-mauve: #8B6F8B;
+  --color-luna-charcoal: #2C2C2C;
+  --color-luna-gray: #6B7280;
+  --color-luna-light: #F3F0EB;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+}
+
+.font-playfair {
+  font-family: 'Playfair Display', Georgia, serif;
+}
